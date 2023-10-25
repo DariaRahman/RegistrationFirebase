@@ -7,25 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EA159B742AE884C500EDD633 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA159B732AE884C500EDD633 /* SignUpViewController.swift */; };
-		EA159B762AE8855300EDD633 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA159B752AE8855300EDD633 /* LoginViewController.swift */; };
 		EA159B782AE886B800EDD633 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA159B772AE886B800EDD633 /* HomeViewController.swift */; };
+		EA159B7B2AE9738F00EDD633 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA159B7A2AE9738F00EDD633 /* SignUpViewController.swift */; };
+		EA159B7D2AE9753D00EDD633 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA159B7C2AE9753D00EDD633 /* LoginViewController.swift */; };
+		EA159B7F2AE9763900EDD633 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA159B7E2AE9763900EDD633 /* Utilities.swift */; };
+		EA159B822AE976B300EDD633 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA159B812AE976B300EDD633 /* ViewController.swift */; };
 		EAD3B1662AE86E5900E95E54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD3B1652AE86E5900E95E54 /* AppDelegate.swift */; };
 		EAD3B1682AE86E5900E95E54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD3B1672AE86E5900E95E54 /* SceneDelegate.swift */; };
-		EAD3B16A2AE86E5900E95E54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD3B1692AE86E5900E95E54 /* ViewController.swift */; };
 		EAD3B16D2AE86E5900E95E54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD3B16B2AE86E5900E95E54 /* Main.storyboard */; };
 		EAD3B16F2AE86E5C00E95E54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAD3B16E2AE86E5C00E95E54 /* Assets.xcassets */; };
 		EAD3B1722AE86E5C00E95E54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD3B1702AE86E5C00E95E54 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EA159B732AE884C500EDD633 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		EA159B752AE8855300EDD633 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		EA159B772AE886B800EDD633 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EA159B7A2AE9738F00EDD633 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		EA159B7C2AE9753D00EDD633 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EA159B7E2AE9763900EDD633 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		EA159B812AE976B300EDD633 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EAD3B1622AE86E5900E95E54 /* RegistrationFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RegistrationFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD3B1652AE86E5900E95E54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAD3B1672AE86E5900E95E54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EAD3B1692AE86E5900E95E54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EAD3B16C2AE86E5900E95E54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EAD3B16E2AE86E5C00E95E54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAD3B1712AE86E5C00E95E54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -46,12 +48,21 @@
 		EA159B792AE8874F00EDD633 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				EAD3B1692AE86E5900E95E54 /* ViewController.swift */,
-				EA159B732AE884C500EDD633 /* SignUpViewController.swift */,
-				EA159B752AE8855300EDD633 /* LoginViewController.swift */,
+				EA159B812AE976B300EDD633 /* ViewController.swift */,
 				EA159B772AE886B800EDD633 /* HomeViewController.swift */,
+				EA159B7A2AE9738F00EDD633 /* SignUpViewController.swift */,
+				EA159B7C2AE9753D00EDD633 /* LoginViewController.swift */,
+				EA159B802AE9764600EDD633 /* Halpers */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EA159B802AE9764600EDD633 /* Halpers */ = {
+			isa = PBXGroup;
+			children = (
+				EA159B7E2AE9763900EDD633 /* Utilities.swift */,
+			);
+			path = Halpers;
 			sourceTree = "<group>";
 		};
 		EAD3B1592AE86E5900E95E54 = {
@@ -155,10 +166,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAD3B16A2AE86E5900E95E54 /* ViewController.swift in Sources */,
+				EA159B7D2AE9753D00EDD633 /* LoginViewController.swift in Sources */,
+				EA159B7B2AE9738F00EDD633 /* SignUpViewController.swift in Sources */,
+				EA159B7F2AE9763900EDD633 /* Utilities.swift in Sources */,
 				EAD3B1662AE86E5900E95E54 /* AppDelegate.swift in Sources */,
-				EA159B742AE884C500EDD633 /* SignUpViewController.swift in Sources */,
-				EA159B762AE8855300EDD633 /* LoginViewController.swift in Sources */,
+				EA159B822AE976B300EDD633 /* ViewController.swift in Sources */,
 				EAD3B1682AE86E5900E95E54 /* SceneDelegate.swift in Sources */,
 				EA159B782AE886B800EDD633 /* HomeViewController.swift in Sources */,
 			);
