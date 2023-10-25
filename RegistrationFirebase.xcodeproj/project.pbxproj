@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA159B742AE884C500EDD633 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA159B732AE884C500EDD633 /* SignUpViewController.swift */; };
+		EA159B762AE8855300EDD633 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA159B752AE8855300EDD633 /* LoginViewController.swift */; };
+		EA159B782AE886B800EDD633 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA159B772AE886B800EDD633 /* HomeViewController.swift */; };
 		EAD3B1662AE86E5900E95E54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD3B1652AE86E5900E95E54 /* AppDelegate.swift */; };
 		EAD3B1682AE86E5900E95E54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD3B1672AE86E5900E95E54 /* SceneDelegate.swift */; };
 		EAD3B16A2AE86E5900E95E54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD3B1692AE86E5900E95E54 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA159B732AE884C500EDD633 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		EA159B752AE8855300EDD633 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EA159B772AE886B800EDD633 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		EAD3B1622AE86E5900E95E54 /* RegistrationFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RegistrationFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD3B1652AE86E5900E95E54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAD3B1672AE86E5900E95E54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +43,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA159B792AE8874F00EDD633 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EAD3B1692AE86E5900E95E54 /* ViewController.swift */,
+				EA159B732AE884C500EDD633 /* SignUpViewController.swift */,
+				EA159B752AE8855300EDD633 /* LoginViewController.swift */,
+				EA159B772AE886B800EDD633 /* HomeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		EAD3B1592AE86E5900E95E54 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +73,9 @@
 		EAD3B1642AE86E5900E95E54 /* RegistrationFirebase */ = {
 			isa = PBXGroup;
 			children = (
+				EA159B792AE8874F00EDD633 /* ViewControllers */,
 				EAD3B1652AE86E5900E95E54 /* AppDelegate.swift */,
 				EAD3B1672AE86E5900E95E54 /* SceneDelegate.swift */,
-				EAD3B1692AE86E5900E95E54 /* ViewController.swift */,
 				EAD3B16B2AE86E5900E95E54 /* Main.storyboard */,
 				EAD3B16E2AE86E5C00E95E54 /* Assets.xcassets */,
 				EAD3B1702AE86E5C00E95E54 /* LaunchScreen.storyboard */,
@@ -140,7 +157,10 @@
 			files = (
 				EAD3B16A2AE86E5900E95E54 /* ViewController.swift in Sources */,
 				EAD3B1662AE86E5900E95E54 /* AppDelegate.swift in Sources */,
+				EA159B742AE884C500EDD633 /* SignUpViewController.swift in Sources */,
+				EA159B762AE8855300EDD633 /* LoginViewController.swift in Sources */,
 				EAD3B1682AE86E5900E95E54 /* SceneDelegate.swift in Sources */,
+				EA159B782AE886B800EDD633 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
