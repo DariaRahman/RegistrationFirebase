@@ -15,6 +15,8 @@
 		EA159B822AE976B300EDD633 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA159B812AE976B300EDD633 /* ViewController.swift */; };
 		EA159B842AE97E0900EDD633 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA159B832AE97E0900EDD633 /* GoogleService-Info.plist */; };
 		EA159B862AE989A500EDD633 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA159B852AE989A500EDD633 /* Constants.swift */; };
+		EA159B892AE993AA00EDD633 /* videoplayback.MOV in Resources */ = {isa = PBXBuildFile; fileRef = EA159B882AE993AA00EDD633 /* videoplayback.MOV */; };
+		EA159B8D2AE99D8200EDD633 /* video.mov in Resources */ = {isa = PBXBuildFile; fileRef = EA159B8C2AE99D8200EDD633 /* video.mov */; };
 		EAD3B1662AE86E5900E95E54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD3B1652AE86E5900E95E54 /* AppDelegate.swift */; };
 		EAD3B1682AE86E5900E95E54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD3B1672AE86E5900E95E54 /* SceneDelegate.swift */; };
 		EAD3B16D2AE86E5900E95E54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD3B16B2AE86E5900E95E54 /* Main.storyboard */; };
@@ -33,6 +35,8 @@
 		EA159B812AE976B300EDD633 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EA159B832AE97E0900EDD633 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EA159B852AE989A500EDD633 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EA159B882AE993AA00EDD633 /* videoplayback.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = videoplayback.MOV; sourceTree = "<group>"; };
+		EA159B8C2AE99D8200EDD633 /* video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = video.mov; sourceTree = "<group>"; };
 		EAD3B1622AE86E5900E95E54 /* RegistrationFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RegistrationFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD3B1652AE86E5900E95E54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAD3B1672AE86E5900E95E54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +95,15 @@
 			path = Halpers;
 			sourceTree = "<group>";
 		};
+		EA159B872AE98FF300EDD633 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				EA159B8C2AE99D8200EDD633 /* video.mov */,
+				EA159B882AE993AA00EDD633 /* videoplayback.MOV */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
 		EAD3B1592AE86E5900E95E54 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +125,7 @@
 		EAD3B1642AE86E5900E95E54 /* RegistrationFirebase */ = {
 			isa = PBXGroup;
 			children = (
+				EA159B872AE98FF300EDD633 /* Media */,
 				EA159B802AE9764600EDD633 /* Halpers */,
 				EA159B792AE8874F00EDD633 /* ViewControllers */,
 				EAD3B1652AE86E5900E95E54 /* AppDelegate.swift */,
@@ -189,6 +203,8 @@
 				EA159B842AE97E0900EDD633 /* GoogleService-Info.plist in Resources */,
 				EAD3B16F2AE86E5C00E95E54 /* Assets.xcassets in Resources */,
 				EAD3B16D2AE86E5900E95E54 /* Main.storyboard in Resources */,
+				EA159B8D2AE99D8200EDD633 /* video.mov in Resources */,
+				EA159B892AE993AA00EDD633 /* videoplayback.MOV in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
